@@ -1,8 +1,17 @@
-h1{
-    color: #76BCCA;
+.nav{
+padding: 4vw;
+color: black;
+border: 1px;
+font-size: 3vw;
+}
+
+.hm-head > h1{
+    font-size: 3vw;
+    color: black;
+    padding: 3vw;
 }
 .home-img > img{
-    width: 30vw;
+    width: 50vw;
     padding: 3vw;
     justify-content: right;
 }
