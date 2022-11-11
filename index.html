@@ -12,53 +12,143 @@
     />
     <link rel="stylesheet" href="./css/home.css" />
   </head>
-  <ul class="nav">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="about.html">ABOUT</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="menu.html">MENU</a>
-    </li>
-  </ul>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul
+          class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-start w-100"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link blue-text fs-3"
+              aria-current="page"
+              href="index.html"
+              >HOME</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link blue-text fs-3" href="about.html">HISTORY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link blue-text fs-3" href="menu.html">MENU</a>
+          </li>
+        </ul>
+        <img src="images/flag-italy.png" class="flag" />
+      </div>
+    </div>
+  </nav>
 
   <body>
-    <div class="hm-head">
-      <h1>ASSAGGIO D'ITALIA</h1>
+    <div class="row">
+      <div class="col-6 ps-5 ms-4 fs-2">ASSAGGIO D'ITALIA</div>
+      <div class="col-6"></div>
     </div>
+    <div class="clearfix container">
+      <div class="row">
+        <div class="col-md-6 fs-5">
+          <p>
+            Set within a 15th century villa between the Etruscan village of
+            Fiesole and Florence on the plains below, Assaggio d'italia offers
+            everything you expect from a fine-dining Tuscan restaurant. Its
+            alfresco dining terrace perfectly frames Florence within its arches.
+            Anytime in the day.
+          </p>
 
-    <div class="d-flex">
-      <div class="flex-container" id="home">
-        <div class="home-img">
-          <img src="images/home-hall.jpeg" alt="homepage" />
+          <p>
+            When the views from this elegant restaurant are really at their
+            best. Soak in the atmosphere over a three-course meal comprising
+          </p>
+
+          <p>
+            Dish: Tuscany's quintessential dish: the Bistecca alla Fiorentina.
+            Served rare and almost impossibly soft, the “Florentine” is the best
+            slice of steak you'll taste in Italy - if not the world.
+          </p>
         </div>
+        <img src="images/home-hall.jpeg" class="col-md-6" alt="home-img" />
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
-          Set within a 15th century villa between the Etruscan village of
-          Fiesole and Florence on the plains below, Assaggio d'italia offers
-          everything you expect from a fine-dining Tuscan restaurant. Its
-          alfresco dining terrace perfectly frames Florence within its arches.
-          Anytime in the day. <br />
-          <br />
-          When the views from this elegant restaurant are really at their best.
-          Soak in the atmosphere over a three-course meal comprising. <br />
-          <br />
-          Dish: Tuscany's quintessential dish: the Bistecca alla Fiorentina.
-          Served rare and almost impossibly soft, the “Florentine” is the best
-          slice of steak you'll taste in Italy - if not the world.
+        <div class="col">RATINGS AND REVIEW</div>
+        <div class="col lm fs-5">
+          “This place is in fact very real and in fact really delicious. I
+          highly recommend that everyone tries it out. Yeah.”-Lynn Mitchell
         </div>
       </div>
-      <h1>RATINGS AND REVIEWS</h1>
-      <div class="container text-center">
-        <div class="row align-items-start">
-          <div class="col">FOOD</div>
-          <div class="col">SERVICE</div>
-          <div class="col">VALUE</div>
+    </div>
+    <div class="row">
+      <div class="review">
+        <div class="col">
+          <div class="row">
+            <div class="col-1">4.0</div>
+            <div class="col-2 star"></div>
+            <div class="col-2 star"></div>
+            <div class="col-2 star"></div>
+            <div class="col-2 star"></div>
+            <div class="col-2 star"></div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row review">
+        <div class="col-sm-12 col-md-4 fs-5">
+          <h1>FOOD</h1>
+          <div class="d-flex justify-content-around align-items-center w-100">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+          </div>
+          <p>
+            OUTSTANDING. <br />
+            “Absolutely lovely, luv. As a brit I approve hip hip.” -Patricio
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-4 fs-5">
+          <h1>SERVICE</h1>
+          <div class="d-flex justify-content-around align-items-center w-100">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+          </div>
+          <p>
+            ALRIGHT. <br />
+            “Crikey! Everyone was very helpful mate. As an Aussie this was
+            great.” -Eliza
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-4 fs-5">
+          <h1>VALUE</h1>
+          <div class="d-flex justify-content-around align-items-center w-100">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+          </div>
+          <p>
+            GENIAL. <br />
+            “Todo es adecuado precio. Volveré por seguro. Como hispana, me
+            encanto.” -Via
+          </p>
         </div>
       </div>
     </div>
