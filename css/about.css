@@ -4,6 +4,14 @@
   border: 1px;
   font-size: 3vw;
 }
+.blue-text{
+  font-size: 2vw;
+  color: #6F93AD;
+}
+.flag{
+  width: 5%;
+  
+}
 
 .hm-head > h1 {
   font-size: 3vw;

@@ -2,6 +2,14 @@
   flex: auto;
   border-bottom: 2px dotted #000;
 }
+.blue-text{
+  font-size: 2vw;
+  color: #6F93AD;
+}
+.flag{
+  width: 5%;
+  
+}
 .text {
   color: #6f93ad;
   text-align: center;
