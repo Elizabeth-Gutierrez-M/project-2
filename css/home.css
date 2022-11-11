@@ -1,8 +1,10 @@
-.nav{
-padding: 4vw;
-color: black;
-border: 1px;
-font-size: 3vw;
+.flag{
+    width: 5%;
+    
+}
+.blue-text{
+    font-size: 2vw;
+    color: #6F93AD;
 }
 
 .hm-head > h1{
@@ -10,8 +12,46 @@ font-size: 3vw;
     color: black;
     padding: 3vw;
 }
-.home-img > img{
-    width: 50vw;
-    padding: 3vw;
-    justify-content: right;
+.row{
+    font-size: 3vw;
+    color: black;
+    padding: 2vw;
 }
+.review{
+    font-size: 3vw;
+    color: black;
+    padding: 3vw;
+}
+
+.home-img{
+    padding: 2vw;
+}
+.home-text{
+    color: black;
+    padding: 2vw;
+}
+.col{
+    font-size: 2vw;
+}
+
+.col > h1{
+    color: #6F93AD;
+    font-size: 2vw;
+}
+
+.star{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #EAEFF5;
+    margin: 0 .5em;
+}
+.flag-nav-item{
+    justify-self: flex-end;
+}
+@media screen and (max-width: 600px){
+    .cleafix > home-img{
+        padding: 1vw;
+    }
+}
+   
