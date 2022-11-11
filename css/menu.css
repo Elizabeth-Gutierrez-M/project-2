@@ -1,0 +1,12 @@
+.dots {
+  flex: auto;
+  border-bottom: 2px dotted #000;
+}
+.text {
+  color: #6f93ad;
+  text-align: center;
+}
+
+.container h2 {
+  color: #6f93ad;
+}
